@@ -1,6 +1,1559 @@
 ---------------
-File: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
-Exception: ValveResourceFormat.Utils.UnexpectedMagicException: Unexpected header (expected 12) for variable 'HeaderVersion': 0 (0x0)
-   at ValveResourceFormat.Resource.Read(Stream input, Boolean verifyFileSize) in /_/ValveResourceFormat/Resource/Resource.cs:line 179
-   at Decompiler.Decompiler.ProcessFile(String path, Stream stream, String originalPath) in /_/Decompiler/Decompiler.cs:line 545
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/coupon/offer_png.vtex_c
+Exception: System.IO.FileNotFoundException: Could not find file '/home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_169.vpk'.
+File name: '/home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_169.vpk'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 129
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/music_kits/radcat_01_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 76CBDFF6, got A90C6638).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/music_kits/valve_cs2_01_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 9B94CB78, got 86135C21).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/patches/case01/patch_breakout_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected A5634D49, got E3A8E6B6).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/patches/case01/patch_fury_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 914C4CFA, got 8285D271).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/patches/case01/patch_vigilance_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 69007B9E, got 72E7D0DB).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/patches/case_skillgroups/patch_globalelite_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected D17BFE52, got 45C8844).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/patches/case_skillgroups/patch_masterguardian3_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected FF94C792, got 72689F25).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/antwerp2022/sig_hunter_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected E86591CF, got B959EFC0).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/antwerp2022/sig_ins_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 81209046, got BBAEC659).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/antwerp2022/sig_jackz_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected E102E550, got B481A935).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/antwerp2022/sig_jame_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected B840DF3E, got E4FA30BC).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/antwerp2022/sig_niko_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected B89F1F3C, got FBE7A830).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/antwerp2022/sig_nitro_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected A3BE0ED, got 25211439).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_hobbit_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected EBBB18B0, got 32A06F9F).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_hobbit_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 901A3038, got A1DEAAFB).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_hobbit_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected BBB94C9A, got 85AB63A6).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_hutji_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 7BDE1272, got 81D8F342).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_hutji_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected D9561953, got 6CA3D4EB).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_hutji_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 38F9B087, got D6CA16B).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_innocent_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 82FADF26, got 804958D3).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_innocent_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected D4162B51, got BC2F4CC3).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_innocent_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 435FFB74, got B7F138D3).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jame_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 529E5462, got D03B0CB2).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jame_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 1EE6ABF4, got D689F4D7).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jame_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 9D1A6F14, got 344CE621).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jdm64_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 9A064FA7, got E7CE3835).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jdm64_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected BE056475, got 1A13C310).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jdm64_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected EF0D90E8, got 402D0F07).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jks_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected D8D71D6F, got B7E76E8C).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jks_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 262B9700, got 8456E596).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jks_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 3B4A980D, got A936C9FE).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jmqa_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected A281CABF, got 71F91465).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jmqa_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected AF5D4002, got EAFA041F).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jmqa_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 109E9ABD, got CDEB0DFA).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jr_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 80981DBE, got E70A9860).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jr_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected BDACBA99, got BEFD0403).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jr_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 883DFF0B, got E7FE5882).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jw_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected F901EA6E, got D1611570).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jw_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 82D8E47, got BCD75FCA).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_jw_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 7B6F0F2F, got DD62DD0).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_k0nfig_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected B7DA6D53, got B5140199).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_k0nfig_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 2D8D9607, got F515DD25).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_k0nfig_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 4EDE1A69, got DDF1AA5).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_karrigan_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 5700A346, got C4B9D83A).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_karrigan_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected F3810526, got 90BF7501).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_karrigan_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DB4E8929, got 1A047702).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_karsa_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected A95E4974, got 2D84E2AA).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_karsa_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 1CEFA586, got 5D3753E1).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_karsa_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 17A14D95, got 75BD023A).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kaze_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 1F031081, got 2C78588C).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kaze_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 52D2C210, got 9E0FA4E7).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kaze_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 7E8545F4, got AF768F7C).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_keev_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected B5984C67, got 404AFD9D).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_keev_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected F2F46398, got 85F89D7B).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_keev_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DC958333, got FA7A39FB).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kennys_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected B7DF50AC, got C3447471).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kennys_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected F4C6E3F0, got 47225824).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kennys_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected FABCE14D, got AB04761D).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_keshandr_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected B2A858F1, got BD571ED).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_keshandr_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected C0EB34B1, got 287A13DA).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_keshandr_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 1D37D88F, got 8C922753).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kjaerbye_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 3ADEB6BC, got DCA0B983).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kjaerbye_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 27E7AC3E, got 432E5E26).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kjaerbye_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 49369BD6, got 47E98821).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kngv_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected CCEEB4D2, got 2DC2F9B).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kngv_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected EFF4DB06, got 1371A7F2).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kngv_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 3DCE09D4, got 9BA8E9CE).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_krimz_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 1914E1C6, got 28DCEB2B).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_krimz_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected E99796D4, got 972FC56F).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_krimz_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected AFB9C652, got E8389EC2).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_krizzen_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 75E56ED9, got FD2BF847).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_krizzen_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 98155942, got 2EF1CCE5).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_krizzen_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 12CCDA6B, got 8BB75113).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_krystal_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DD20EB36, got 56DE425).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_krystal_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 2F7AC458, got 591DC6DC).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_krystal_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 8A5F1860, got 661A1FEA).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kvik_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected FFA743A8, got 7B069AC8).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kvik_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 5FF9C609, got EAB2C172).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_kvik_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected B220E68B, got B59C8F9).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_legija_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DF2948E9, got 4925DEBD).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_legija_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected E87B2891, got CF5BEF70).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_legija_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 7F30E262, got EC0D7CA8).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_lekro_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 7A65878B, got 84CE7D98).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_lekro_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 5556353B, got D730BA9D).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_lekro_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected A7535168, got 7F84C343).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_loveyy_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 5E9FDA61, got 8FA71F82).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_loveyy_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected A755989D, got C9F542DF).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_loveyy_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 87667D8D, got C09A77CE).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_lucas1_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 1B738C77, got 8CE0908E).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/boston2018/sig_lucas1_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 92512AEB, got 396C8137).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/cologne2014/ninjasinpyjamas_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected BA2D4E70, got 750B5C91).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/comm2018_01/bullet_rain_normal_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected C4B96EA6, got 28C99CF6).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/community02/queenofpain_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected C04FA0F1, got 4B1A890D).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/community02/thuglife_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 9AA02FF2, got E75778D4).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/community02/tilldeathdouspart_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected F1843841, got B0E9EA46).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/community2021/nademan_paper_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected B8B9EEF7, got 15CCE0EB).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/community2021/war_paper_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected D3C6C9F8, got F5880788).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/community2022/butterfly_sting_paper_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 7FE90E9A, got A7F9848D).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/community2022/salty_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DC38D1F9, got 83CB70A2).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/cs20/cs20_anniversary_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 27C2A6EC, got CCD5E59F).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/csgo10/skin_lover_lenticular_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected B2102BCB, got 255CECBD).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/halo/legendary_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 77F97523, got B60F8DF3).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_fallen_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 333C935B, got 475A2A76).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_fallen_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected E885C53B, got 770BA437).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_felps_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected C85E3916, got 244AF862).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_fer_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 3E1E297, got 46DBDEA9).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_fitch_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected E04A5C02, got 39F40A92).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_forest_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 430A1D8, got DC80153).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_forest_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected C9D50131, got 557B973F).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_freeman_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 5D718189, got 3A2C300E).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_fugly_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 828B4697, got 9E48780C).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_gla1ve_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 24A82D28, got EF21A200).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_gobb_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected D8C0B46F, got D9EB2B4E).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_golden_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 467D249D, got 85423B54).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_gratisfaction_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 4D8B3E1E, got EC37000C).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_guardian_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 28277FED, got 59F1575B).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_hobbit_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 8A9DDE50, got 9471A883).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_hobbit_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 542843D8, got F8C9C475).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_hutji_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 141CCD09, got FD2CF942).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_hutji_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 66DCA9C7, got 96D05B3D).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_jackz_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected FEFA39C, got A3D8E8F7).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_jame_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 8EAAD0E6, got 18F9298B).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_jkaem_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 9DC2261D, got 282EE48E).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_jks_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 1E8B5D6, got 572A0605).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_jr_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected E9A986ED, got 4C02C4E3).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_jr_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 3FF0A6C1, got BD30913C).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_jw_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 2A24691B, got 90DEDE9F).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_jw_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected D27896AC, got B35759B6).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_kaze_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 79C04C19, got 4CA376D6).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_kioshima_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 9CEF109F, got 1663DCBD).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_krimz_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 22B29964, got 1306BDEA).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_krimz_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 9C7FBE02, got 770BA437).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_krizzen_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 970E30F2, got A2D5BC3C).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_kscerato_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 36B73C81, got ABC3BBD2).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_kvik_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 3C336BAD, got 93352EA7).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_lekro_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 8A365513, got BAC2CA70).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_magisk_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 306A8493, got 320A0A51).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_magisk_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected D4234598, got 82CF9778).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_n0rb3r7_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected B82A8389, got F2EC9EF2).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_niko_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 70065D34, got CFBA63A0).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_niko_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 3986F53A, got 7E0E86BD).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_nitro_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 41FF2D05, got C10C4AF1).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_olofmeister_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 2D29C005, got 677582A9).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_qikert_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 8D709593, got D5AD3843).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_rain_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 467F1C05, got 822AB4).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_rain_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 24A6CEE2, got FEB7EDEC).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_rez_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 366EB690, got 3FB63452).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_rez_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 92681E29, got 8ACA0457).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_rickeh_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 72D702E7, got 2FCFFE99).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_s0tf1k_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 26F3C7CB, got 8231274E).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_s1mple_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected A0CB73B1, got 34D9C627).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_sergej_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 30FEEA10, got 4925B3F4).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_shahzam_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 5F29485C, got 9A5B850F).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_shahzam_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected A83E3F38, got BE5532EE).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_somebody_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 9D5C629C, got 938D16EB).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_somebody_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected F55FE20E, got C4D88506).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/katowice2019/sig_sterling_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 1F7957D3, got 6C3FA91C).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/astr_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 517CAE3E, got 35BFFAFC).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/astr_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 6D0D5C3A, got 6CAA1C64).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/astr_graffiti_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 9B817DFF, got 36B68628).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/astr_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 508CEA06, got 3AF3339A).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/astr_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected FC871C14, got 67FBB7F7).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/big_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected E0A5BD88, got 757A94B8).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/big_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 53740342, got 47F788EC).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/big_graffiti_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 86499943, got B4F541ED).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/big_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 3B130DD8, got 55DD6406).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/big_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 83CE8EC7, got 632F68B2).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/c9_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected F475D062, got 815D8E2A).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/c9_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected E2BFF9C8, got 86F47138).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/c9_graffiti_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 789206B0, got BDD0A809).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/c9_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected C65DE29F, got 1E4ACE7D).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/london2018/c9_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected D2B518DC, got BFD60E3D).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/pinups_capsule/tamara_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DA8DC55F, got 5243B9D9).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_cerq_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected EFC88DAC, got E3074203).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_degster_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 35852ED6, got 91BD2FB3).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_drop_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DEAE7046, got 9246646B).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_electronic_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected D89B34A1, got 8D064668).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_elige_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 21BAB2D6, got 37863D78).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_fallen_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 6AC435BE, got 8176597C).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_gxx_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DDCF1906, got C475FFF4).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_hext_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 1DB7311B, got 136BE484).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_im_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 59B4365A, got 542334C1).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_ins_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 41DB8ABC, got B69A5DF8).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_interz_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DC33B63A, got DBC092AE).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_jabbi_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 54032368, got A516023A).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_kscerato_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DDFE6AEB, got E46CF1).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_latto_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 4D678271, got 73793137).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_mezii_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 9D682564, got 1E582FE).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_n0rb3r7_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DD926557, got 33DD4269).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_nexa_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected F821993D, got 4AE7DD65).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_qikert_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected CDFB20CA, got E87091DD).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_saffee_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected AEB69571, got 5DDB247A).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_siuhy_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 41E4B397, got 9B03BA81).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_stavn_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 887B24CB, got 4A7F0336).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_sunpayus_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected AA581F43, got E1F522CB).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_v4lde_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 345B82FB, got 2EEC59E).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/rio2022/sig_yuurih_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 26269672, got A652240A).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/riptide_surfshop/monster_ak_04_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected BEB307F8, got 803DE3D5).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/shattered_web/mastermind_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 55ADB7EC, got 57580FBF).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/spring2022/real_mvp_foil_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected ECB95842, got 7B413804).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/spring2022/smoke_criminal_paper_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected E0407B48, got EE0CBC48).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_device_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 5B3690B5, got E12AF44E).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_electronic_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 44434B6, got 18B38DC9).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_fl1t_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 3E97A066, got 7FB1345D).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_hobbit_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 65D971, got AAA8B6D6).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_jackz_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected DF6A5C96, got DE2E92FE).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_jame_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 7209C4F, got 42BADE55).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_lnz_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected A654318B, got 550332C2).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_nafany_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 5568212C, got 5F1DEBD3).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_nexa_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 50A5AA81, got 4F585C6D).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_niko_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 89419455, got B88E1877).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_rez_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected EF8DB48, got E764D57C).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_s1mple_gold_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 44AB43D9, got F2069E93).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/stockh2021/sig_sh1ro_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 99B6BDA9, got B28F630A).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/sugarface_capsule/joan_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected D9D45F40, got AF644794).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/warhammer/lord_of_skulls_holo_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected CCE0B77B, got 9FB0F109).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/stickers/warhammer/repulsor_paper_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected 47AA977, got F8A746A5).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/tools/set_anubis_storepromo_key_png.vtex_c
+Exception: System.IO.InvalidDataException: CRC32 mismatch for read data (expected BC6885AE, got 3E66DE3F).
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 163
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/wearables/gloves/ct_defaultgloves_png.vtex_c
+Exception: System.IO.FileNotFoundException: Could not find file '/home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_152.vpk'.
+File name: '/home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_152.vpk'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 129
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
+
+---------------
+Parent file: /home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_dir.vpk
+File: panorama/images/econ/wearables/gloves/t_defaultgloves_png.vtex_c
+Exception: System.IO.FileNotFoundException: Could not find file '/home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_152.vpk'.
+File name: '/home/runner/work/counter-strike-image-tracker/counter-strike-image-tracker/temp/pak01_152.vpk'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at SteamDatabase.ValvePak.Package.ReadEntry(PackageEntry entry, Byte[] output, Boolean validateCrc) in /_/ValvePak/ValvePak/Package.Read.cs:line 129
+   at Decompiler.Decompiler.ProcessVPKEntries(String parentPath, Package package, IFileLoader fileLoader, String type, Dictionary`2 manifestData) in /_/Decompiler/Decompiler.cs:line 1117
 
